@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(48, 35, 168);
+}
+
+.container {
+  width: 1100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-top: 30px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 17px;
+  color: white;
+}
+
+.login {
+  background-color: rgb(222, 49, 99);
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+}
+
+.fas {
+  font-size: 20px;
+  color: white;
+}
+.login a,
+.watch-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner-text {
+  margin-top: 1.5rem;
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.banner-detail {
+  width: 40%;
+  margin-top: 50px;
+}
+
+.buttun {
+  margin-top: 3.5rem;
+  width: 130px;
+  background-color: rgb(222, 49, 99);
+  padding: 10px 25px;
+}
+
+.buttun a {
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.banner-img {
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+.banner-img img {
+  width: 510px;
+  height: 410px;
+}
+
+.player-pfofile {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.player-section {
+  width: 75%;
+}
+
+.top-players {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+  padding: 10px;
+  box-shadow: 0 0 15px rgb(185, 176, 176);
+}
+
+.player img {
+  height: 250px;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.hilight-area {
+  display: flex;
+  width: 75%;
+}
+
+.hilight-area h1 {
+  padding-bottom: 2rem;
+  font-size: 45px;
+}
+
+.all-hilight {
+  width: 70%;
+  padding-right: 25px;
+}
+
+.hilight-img img {
+  width: 500px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.footer-logo img {
+  width: 350px;
+}
+
+.footer-icon {
+  margin-left: 100px !important;
+  font-size: 20px;
+}
+
+.icon {
+  border: 1px solid gray;
+  color: gray;
+  padding: 7px;
+  margin-left: 10px;
+  border-radius: 50px;
+  background-color: lightgray;
+}
+
+.copy-right {
+  margin-left: 100px;
+  margin-top: 20px;
+  padding-bottom: 70px;
+}
